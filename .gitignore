@@ -1,0 +1,75 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local databases and vector stores
+vector_db/
+chroma_db/
+data/chroma_db/
+*.sqlite3
+*.db
+
+# Local/private RAG source documents
+data/*.pdf
+data/documents/*
+!data/documents/.gitkeep
+project-flow.docx
+
+# Scripts and data
+scripts/
+data/
+
+# Generated eval outputs
+eval_results.json
+eval_report.html
+ASK_MODE.md
+eval_results/
+reports/
+
+# Logs
+*.log
+logs/
+
+# Test and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+
+# Jupyter notebooks cache
+.ipynb_checkpoints/
+
+# Editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Frontend dependencies if UI is added later
+node_modules/
+
+
+# Scripts and data
+scripts/
+data/

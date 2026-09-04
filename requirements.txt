@@ -1,0 +1,118 @@
+# ============================================
+# Enterprise Intelligence Graph RAG
+# ============================================
+
+# -------------------------
+# API / Backend
+# -------------------------
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+python-multipart
+
+# -------------------------
+# Environment / Configuration
+# -------------------------
+python-dotenv
+pyyaml
+
+# -------------------------
+# Neo4j / Graph Database
+# -------------------------
+neo4j
+
+# -------------------------
+# HTTP / API Clients
+# -------------------------
+httpx
+requests
+
+# -------------------------
+# LLM / mistralai
+# -------------------------
+langchain_mistralai
+langchain-groq
+
+
+
+
+# -------------------------
+# RAG / LLM Framework
+# -------------------------
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+langgraph
+
+# -------------------------
+# Vector / Embeddings
+# -------------------------
+sentence-transformers
+numpy
+scikit-learn
+
+# -------------------------
+# Document Processing
+# -------------------------
+pypdf
+python-docx
+openpyxl
+beautifulsoup4
+markdown
+
+# -------------------------
+# Data Processing
+# -------------------------
+pandas
+
+# -------------------------
+# Text Processing
+# -------------------------
+tiktoken
+
+# -------------------------
+# Database / Caching
+# -------------------------
+sqlalchemy
+
+# -------------------------
+# Validation / Utilities
+# -------------------------
+tenacity
+orjson
+
+# -------------------------
+# Logging
+# -------------------------
+loguru
+
+# -------------------------
+# Testing
+# -------------------------
+pytest
+pytest-asyncio
+pytest-cov
+
+# -------------------------
+# Code Quality
+# -------------------------
+black
+isort
+ruff
+
+# -------------------------
+# Type Checking
+# -------------------------
+mypy
+
+# -------------------------
+# Development
+# -------------------------
+ipython
+
+# ----------------------
+# Database
+# ----------------------
+pymysql
